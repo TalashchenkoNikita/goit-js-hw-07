@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 16px;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #FFFFFF;
+  color:  #2e2f42;
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+#categories {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.item {
+  padding: 16px;
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+  background-color: #f6f6fe;
+}
+
+.item h2{
+  margin: 0;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 133%;
+  letter-spacing: 0.04em;
+
+}
+
+.item ul{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  list-style-type: none;
+  padding: 0;
+}
+
+.item ul li {
+  border: 1px solid #808080;
+  border-radius: 8px;
+  padding: 8px 16px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  margin: 24px;
+  gap: 8px;
+}
+
+.login-form label {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+h1{
+  margin-top: 16px;
+}
+
+.gallery {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  list-style-type: none;
+}
+
+.gallery img{
+  width: 360px;
+  height: 300px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 4px;
+    background: transparent;
+    outline: none;
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    color:  #2e2f42;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+input::placeholder {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;                                                  
+    line-height: 1.5;  
+    color:  #2e2f42;                     
+}
+
+button {
+    align-self: flex-start;
+    margin-top: 8px;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 500;
+    padding: 8px 16px;
+    border: none;
+    background-color: #4E75FF;
+    color: #FFFFFF;
+}
+
+.widget {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.change-color {
+  align-self:auto;
+}
